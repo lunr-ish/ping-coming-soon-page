@@ -1,0 +1,17 @@
+:root {
+  /* COLOR */
+  --clr-blue-200: 223 100% 88%;
+  --clr-blue-400: 223 87% 63%;
+  --clr-blue-900: 209 33% 12%;
+  --clr-red-400: 354 100% 66%;
+  --clr-gray-400: 0 0% 59%;
+  --clr-white: 0 0% 100%;
+
+  /* FONT FAMILY */
+  --ff-libre-franklin: "Libre Franklin", sans-serif;
+
+  /* FONT WEIGHT */
+  --fw-light: 300;
+  --fw-semibold: 600;
+  --fw-bold: 700;
+}
