@@ -258,3 +258,24 @@ header {
     margin-top: 4rem;
   }
 }
+
+/* FOOTER */
+
+footer {
+  padding-bottom: 2.3125rem;
+}
+
+.copyright {
+  color: hsl(var(--clr-gray-400));
+  font-size: 0.625rem;
+}
+
+@media (min-width: 40rem) {
+  footer {
+    padding-bottom: 3.0625rem;
+  }
+
+  .copyright {
+    font-size: 0.75rem;
+  }
+}
