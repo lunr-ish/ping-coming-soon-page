@@ -24,69 +24,79 @@
   </head>
   <body>
     <header>
-      <div class="logo-wrapper">
-        <img src="./images/logo.svg" alt="PING logo" />
+      <div class="container">
+        <div class="logo-wrapper">
+          <img src="./images/logo.svg" alt="PING logo" />
+        </div>
       </div>
     </header>
 
     <main>
-      <h1 class="main-heading">
-        We are launching <span class="highlight">soon!</span>
-      </h1>
+      <div class="container">
+        <h1 class="main-heading">
+          We are launching <span class="highlight">soon!</span>
+        </h1>
 
-      <p class="desc">Subscribe and get notified</p>
+        <p class="desc">Subscribe and get notified</p>
 
-      <form action="#" class="subscribe-form">
-        <div class="form-group">
-          <label for="email" class="sr-only">Email</label>
-          <input
-            type="email"
-            id="email"
-            name="email"
-            placeholder="Your email address..."
-            class="form-control"
+        <form action="#" class="subscribe-form">
+          <div class="form-group">
+            <label for="email" class="sr-only">Email</label>
+            <input
+              type="email"
+              id="email"
+              name="email"
+              placeholder="Your email address..."
+              class="form-control"
+            />
+            <p class="error-text">Please provide a valid email address</p>
+          </div>
+          <div class="form-group">
+            <button type="submit" class="submit-btn">Notify Me</button>
+          </div>
+        </form>
+
+        <div class="hero-img-wrapper">
+          <img
+            src="./images/illustration-dashboard.png"
+            alt=""
+            aria-hidden="true"
           />
-          <p class="error">Please provide a valid email address</p>
         </div>
-        <div class="form-group">
-          <button type="submit" class="submit-btn">Notify Me</button>
-        </div>
-      </form>
 
-      <div class="hero-img-wrapper">
-        <img
-          src="./images/illustration-dashboard.png"
-          alt=""
-          aria-hidden="true"
-        />
+        <ul class="socials-list">
+          <li class="socials-item">
+            <a href="#" class="socials-link">
+              <span class="sr-only">PING on Facebook</span>
+              <img src="./images/icon-facebook.svg" alt="" aria-hidden="true" />
+            </a>
+          </li>
+          <li class="socials-item">
+            <a href="#" class="socials-link">
+              <span class="sr-only">PING on Twitter</span>
+              <img src="./images/icon-twitter.svg" alt="" aria-hidden="true" />
+            </a>
+          </li>
+          <li class="socials-item">
+            <a href="#" class="socials-link">
+              <span class="sr-only">PING on Instagram</span>
+              <img
+                src="./images/icon-instagram.svg"
+                alt=""
+                aria-hidden="true"
+              />
+            </a>
+          </li>
+        </ul>
       </div>
-
-      <ul class="socials-list">
-        <li class="socials-item">
-          <a href="#" class="socials-link">
-            <span class="sr-only">PING on Facebook</span>
-            <img src="./images/icon-facebook.svg" alt="" aria-hidden="true" />
-          </a>
-        </li>
-        <li class="socials-item">
-          <a href="#" class="socials-link">
-            <span class="sr-only">PING on Twitter</span>
-            <img src="./images/icon-twitter.svg" alt="" aria-hidden="true" />
-          </a>
-        </li>
-        <li class="socials-item">
-          <a href="#" class="socials-link">
-            <span class="sr-only">PING on Instagram</span>
-            <img src="./images/icon-instagram.svg" alt="" aria-hidden="true" />
-          </a>
-        </li>
-      </ul>
     </main>
 
     <footer>
-      <small class="copyright"
-        >&copy; Copyright Ping. All rights reserved.</small
-      >
+      <div class="container">
+        <small class="copyright"
+          >&copy; Copyright Ping. All rights reserved.</small
+        >
+      </div>
     </footer>
   </body>
 </html>
