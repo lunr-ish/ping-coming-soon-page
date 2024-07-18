@@ -238,3 +238,23 @@ header {
     padding: 1.125rem 2.5rem;
   }
 }
+
+/* HERO IMG */
+
+.hero-img-wrapper {
+  margin-top: 4.25rem;
+}
+
+.subscribe-form.error + .hero-img-wrapper {
+  margin-top: 2.25rem;
+}
+
+@media (min-width: 40rem) {
+  .hero-img-wrapper {
+    margin-top: 5.375rem;
+  }
+
+  .subscribe-form.error + .hero-img-wrapper {
+    margin-top: 4rem;
+  }
+}
