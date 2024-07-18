@@ -132,3 +132,28 @@ header {
     max-width: unset;
   }
 }
+
+/* MAIN */
+
+.main-heading {
+  color: hsl(var(--clr-gray-400));
+  font-weight: var(--fw-light);
+  font-size: 1.375rem;
+}
+
+.desc {
+  color: hsl(var(--clr-blue-900));
+  font-size: 0.75rem;
+  margin-block: 1.0625rem 2rem;
+}
+
+@media (min-width: 40rem) {
+  .main-heading {
+    font-size: 3rem;
+  }
+
+  .desc {
+    font-size: 1.25rem;
+    margin-bottom: 2.5rem;
+  }
+}
