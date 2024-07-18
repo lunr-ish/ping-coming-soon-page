@@ -61,3 +61,19 @@ img {
   display: block;
   max-width: 100%;
 }
+
+/* BODY */
+
+body {
+  font-family: var(--ff-libre-franklin);
+  font-weight: var(--fw-light);
+  background: hsl(var(--clr-white));
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  text-align: center;
+}
+
+main {
+  flex: 1;
+}
