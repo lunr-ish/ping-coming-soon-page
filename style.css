@@ -172,6 +172,7 @@ header {
   padding: 0.75rem 2rem;
   border-radius: 5rem;
   outline: transparent;
+  color: hsl(var(--clr-blue-900));
 }
 
 .form-control:is(:hover, :focus-visible) {
